@@ -170,4 +170,12 @@ fig2.update_layout(
 
 st.plotly_chart(fig2, use_container_width=True)
 
+hide_st_style = """
+                <style>
+                #MainMenu {visibility: hidden;}
+                footer {visibility: hidden;}
+                header {visibility: hidden;}
+                </style>
+                """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
