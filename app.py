@@ -3,14 +3,10 @@ st.set_page_config(page_title="Churn Dashboard",
                    page_icon=":bar_chart:", layout="wide")
 
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+
 import seaborn as sns
 sns.set(style="darkgrid")
-# from sklearn.preprocessing import OneHotEncoder
-# from sklearn.linear_model import LinearRegression
-# from sklearn.preprocessing import StandardScaler
-import missingno as msno
+
 import plotly.express as px
 
 
