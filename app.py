@@ -9,12 +9,6 @@ sns.set(style="darkgrid")
 
 import plotly.express as px
 
-
-# %%
-#ignore warning messages 
-import warnings
-warnings.filterwarnings('ignore') 
-
 st.markdown("<h1 style='text-align: center; color: yellow;'><span> 📊 </span>Dashboard</h1>",
             unsafe_allow_html=True)
 
